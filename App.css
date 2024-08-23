@@ -1,0 +1,99 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+html {
+  box-sizing: border-box;
+  background-image: url(/images/gradient-pink.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #f8f8f8;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+#portfolio {
+  padding: 20px;
+}
+
+#portfolio {
+  height: 850px;
+}
+
+.organizer-display {
+  width: 50%;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  display: block;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+input[type="submit"] {
+  width: 100px;
+}
+
+.organizer-header {
+  width: 50%;
+}
+
+form {
+  width: 50%;
+  margin: 0px 0px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px;
+}
+
+.task-list {
+  background-color: #f8f8f8;
+  width: 50%;
+  margin-top: 10px;
+}
+
+.task-item {
+  color: black;
+  list-style: none;
+  display: flex;
+}
+
+.list-description {
+  flex-grow: 2;
+  text-align: justify;
+  padding: 10px;
+}
+
+.list-name {
+  margin-bottom: 10px;
+}
+
+
